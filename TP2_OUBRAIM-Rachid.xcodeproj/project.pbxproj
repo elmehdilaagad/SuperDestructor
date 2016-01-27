@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9EE31A1A1BB901003274DD /* bg-game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E9EE3191A1BB901003274DD /* bg-game.jpg */; };
+		1351E9381A1BA69B004DC4BD /* ennemie.png in Resources */ = {isa = PBXBuildFile; fileRef = 1351E9361A1BA69B004DC4BD /* ennemie.png */; };
+		1351E9391A1BA69B004DC4BD /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 1351E9371A1BA69B004DC4BD /* user.png */; };
+		1351E93C1A1BA8C1004DC4BD /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 1351E93A1A1BA8C1004DC4BD /* like.png */; };
+		1351E93D1A1BA8C1004DC4BD /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 1351E93B1A1BA8C1004DC4BD /* tweet.png */; };
+		138FFECB1A0B986C0035794E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FFECA1A0B986C0035794E /* Cocoa.framework */; };
+		138FFECD1A0B986C0035794E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FFECC1A0B986C0035794E /* SpriteKit.framework */; };
+		138FFED71A0B986C0035794E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 138FFED51A0B986C0035794E /* InfoPlist.strings */; };
+		138FFED91A0B986C0035794E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138FFED81A0B986C0035794E /* main.m */; };
+		138FFEDD1A0B986C0035794E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 138FFEDB1A0B986C0035794E /* Credits.rtf */; };
+		138FFEDF1A0B986C0035794E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138FFEDE1A0B986C0035794E /* MainMenu.xib */; };
+		138FFEE11A0B986D0035794E /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 138FFEE01A0B986C0035794E /* MyScene.m */; };
+		138FFEE41A0B986D0035794E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138FFEE31A0B986D0035794E /* AppDelegate.m */; };
+		138FFEE91A0B986D0035794E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138FFEE81A0B986D0035794E /* Images.xcassets */; };
+		138FFEF01A0B986D0035794E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FFEEF1A0B986D0035794E /* XCTest.framework */; };
+		138FFEF11A0B986D0035794E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138FFECA1A0B986C0035794E /* Cocoa.framework */; };
+		138FFEF91A0B986D0035794E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 138FFEF71A0B986D0035794E /* InfoPlist.strings */; };
+		138FFEFB1A0B986D0035794E /* TP2_OUBRAIM_RachidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 138FFEFA1A0B986D0035794E /* TP2_OUBRAIM_RachidTests.m */; };
+		13E318701A1A5B4D000C457A /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13E3186F1A1A5B4D000C457A /* File.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		138FFEF21A0B986D0035794E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 138FFEBF1A0B986C0035794E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138FFEC61A0B986C0035794E;
+			remoteInfo = "TP2_OUBRAIM-Rachid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9EE3191A1BB901003274DD /* bg-game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-game.jpg"; sourceTree = "<group>"; };
+		1351E9361A1BA69B004DC4BD /* ennemie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ennemie.png; sourceTree = "<group>"; };
+		1351E9371A1BA69B004DC4BD /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		1351E93A1A1BA8C1004DC4BD /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		1351E93B1A1BA8C1004DC4BD /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
+		138FFEC71A0B986C0035794E /* TP2_OUBRAIM-Rachid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TP2_OUBRAIM-Rachid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		138FFECA1A0B986C0035794E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		138FFECC1A0B986C0035794E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		138FFECF1A0B986C0035794E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		138FFED01A0B986C0035794E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		138FFED11A0B986C0035794E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		138FFED41A0B986C0035794E /* TP2_OUBRAIM-Rachid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TP2_OUBRAIM-Rachid-Info.plist"; sourceTree = "<group>"; };
+		138FFED61A0B986C0035794E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		138FFED81A0B986C0035794E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		138FFEDA1A0B986C0035794E /* TP2_OUBRAIM-Rachid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TP2_OUBRAIM-Rachid-Prefix.pch"; sourceTree = "<group>"; };
+		138FFEDC1A0B986C0035794E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		138FFEDE1A0B986C0035794E /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		138FFEE01A0B986C0035794E /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		138FFEE21A0B986D0035794E /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		138FFEE31A0B986D0035794E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		138FFEE51A0B986D0035794E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		138FFEE81A0B986D0035794E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		138FFEEE1A0B986D0035794E /* TP2_OUBRAIM-RachidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TP2_OUBRAIM-RachidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		138FFEEF1A0B986D0035794E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		138FFEF61A0B986D0035794E /* TP2_OUBRAIM-RachidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TP2_OUBRAIM-RachidTests-Info.plist"; sourceTree = "<group>"; };
+		138FFEF81A0B986D0035794E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		138FFEFA1A0B986D0035794E /* TP2_OUBRAIM_RachidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TP2_OUBRAIM_RachidTests.m; sourceTree = "<group>"; };
+		13E3186F1A1A5B4D000C457A /* File.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = File.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138FFEC41A0B986C0035794E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138FFECD1A0B986C0035794E /* SpriteKit.framework in Frameworks */,
+				138FFECB1A0B986C0035794E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138FFEEB1A0B986D0035794E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138FFEF11A0B986D0035794E /* Cocoa.framework in Frameworks */,
+				138FFEF01A0B986D0035794E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138FFEBE1A0B986C0035794E = {
+			isa = PBXGroup;
+			children = (
+				138FFED21A0B986C0035794E /* TP2_OUBRAIM-Rachid */,
+				138FFEF41A0B986D0035794E /* TP2_OUBRAIM-RachidTests */,
+				138FFEC91A0B986C0035794E /* Frameworks */,
+				138FFEC81A0B986C0035794E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		138FFEC81A0B986C0035794E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138FFEC71A0B986C0035794E /* TP2_OUBRAIM-Rachid.app */,
+				138FFEEE1A0B986D0035794E /* TP2_OUBRAIM-RachidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138FFEC91A0B986C0035794E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138FFECA1A0B986C0035794E /* Cocoa.framework */,
+				138FFECC1A0B986C0035794E /* SpriteKit.framework */,
+				138FFEEF1A0B986D0035794E /* XCTest.framework */,
+				138FFECE1A0B986C0035794E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		138FFECE1A0B986C0035794E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138FFECF1A0B986C0035794E /* AppKit.framework */,
+				138FFED01A0B986C0035794E /* CoreData.framework */,
+				138FFED11A0B986C0035794E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		138FFED21A0B986C0035794E /* TP2_OUBRAIM-Rachid */ = {
+			isa = PBXGroup;
+			children = (
+				1351E93A1A1BA8C1004DC4BD /* like.png */,
+				0E9EE3191A1BB901003274DD /* bg-game.jpg */,
+				1351E93B1A1BA8C1004DC4BD /* tweet.png */,
+				1351E9361A1BA69B004DC4BD /* ennemie.png */,
+				1351E9371A1BA69B004DC4BD /* user.png */,
+				138FFEDE1A0B986C0035794E /* MainMenu.xib */,
+				138FFEE01A0B986C0035794E /* MyScene.m */,
+				138FFEE21A0B986D0035794E /* MyScene.h */,
+				138FFEE31A0B986D0035794E /* AppDelegate.m */,
+				138FFEE51A0B986D0035794E /* AppDelegate.h */,
+				138FFEE81A0B986D0035794E /* Images.xcassets */,
+				138FFED31A0B986C0035794E /* Supporting Files */,
+				13E3186F1A1A5B4D000C457A /* File.strings */,
+			);
+			path = "TP2_OUBRAIM-Rachid";
+			sourceTree = "<group>";
+		};
+		138FFED31A0B986C0035794E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				138FFED41A0B986C0035794E /* TP2_OUBRAIM-Rachid-Info.plist */,
+				138FFED51A0B986C0035794E /* InfoPlist.strings */,
+				138FFED81A0B986C0035794E /* main.m */,
+				138FFEDA1A0B986C0035794E /* TP2_OUBRAIM-Rachid-Prefix.pch */,
+				138FFEDB1A0B986C0035794E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		138FFEF41A0B986D0035794E /* TP2_OUBRAIM-RachidTests */ = {
+			isa = PBXGroup;
+			children = (
+				138FFEFA1A0B986D0035794E /* TP2_OUBRAIM_RachidTests.m */,
+				138FFEF51A0B986D0035794E /* Supporting Files */,
+			);
+			path = "TP2_OUBRAIM-RachidTests";
+			sourceTree = "<group>";
+		};
+		138FFEF51A0B986D0035794E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				138FFEF61A0B986D0035794E /* TP2_OUBRAIM-RachidTests-Info.plist */,
+				138FFEF71A0B986D0035794E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138FFEC61A0B986C0035794E /* TP2_OUBRAIM-Rachid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138FFEFE1A0B986D0035794E /* Build configuration list for PBXNativeTarget "TP2_OUBRAIM-Rachid" */;
+			buildPhases = (
+				138FFEC31A0B986C0035794E /* Sources */,
+				138FFEC41A0B986C0035794E /* Frameworks */,
+				138FFEC51A0B986C0035794E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TP2_OUBRAIM-Rachid";
+			productName = "TP2_OUBRAIM-Rachid";
+			productReference = 138FFEC71A0B986C0035794E /* TP2_OUBRAIM-Rachid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		138FFEED1A0B986D0035794E /* TP2_OUBRAIM-RachidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138FFF011A0B986D0035794E /* Build configuration list for PBXNativeTarget "TP2_OUBRAIM-RachidTests" */;
+			buildPhases = (
+				138FFEEA1A0B986D0035794E /* Sources */,
+				138FFEEB1A0B986D0035794E /* Frameworks */,
+				138FFEEC1A0B986D0035794E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				138FFEF31A0B986D0035794E /* PBXTargetDependency */,
+			);
+			name = "TP2_OUBRAIM-RachidTests";
+			productName = "TP2_OUBRAIM-RachidTests";
+			productReference = 138FFEEE1A0B986D0035794E /* TP2_OUBRAIM-RachidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138FFEBF1A0B986C0035794E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "OUBRAIM RACHID";
+				TargetAttributes = {
+					138FFEED1A0B986D0035794E = {
+						TestTargetID = 138FFEC61A0B986C0035794E;
+					};
+				};
+			};
+			buildConfigurationList = 138FFEC21A0B986C0035794E /* Build configuration list for PBXProject "TP2_OUBRAIM-Rachid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 138FFEBE1A0B986C0035794E;
+			productRefGroup = 138FFEC81A0B986C0035794E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138FFEC61A0B986C0035794E /* TP2_OUBRAIM-Rachid */,
+				138FFEED1A0B986D0035794E /* TP2_OUBRAIM-RachidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138FFEC51A0B986C0035794E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E318701A1A5B4D000C457A /* File.strings in Resources */,
+				138FFEE91A0B986D0035794E /* Images.xcassets in Resources */,
+				138FFED71A0B986C0035794E /* InfoPlist.strings in Resources */,
+				1351E9381A1BA69B004DC4BD /* ennemie.png in Resources */,
+				138FFEDD1A0B986C0035794E /* Credits.rtf in Resources */,
+				1351E9391A1BA69B004DC4BD /* user.png in Resources */,
+				138FFEDF1A0B986C0035794E /* MainMenu.xib in Resources */,
+				1351E93D1A1BA8C1004DC4BD /* tweet.png in Resources */,
+				0E9EE31A1A1BB901003274DD /* bg-game.jpg in Resources */,
+				1351E93C1A1BA8C1004DC4BD /* like.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138FFEEC1A0B986D0035794E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138FFEF91A0B986D0035794E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138FFEC31A0B986C0035794E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138FFEE11A0B986D0035794E /* MyScene.m in Sources */,
+				138FFED91A0B986C0035794E /* main.m in Sources */,
+				138FFEE41A0B986D0035794E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		138FFEEA1A0B986D0035794E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138FFEFB1A0B986D0035794E /* TP2_OUBRAIM_RachidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		138FFEF31A0B986D0035794E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 138FFEC61A0B986C0035794E /* TP2_OUBRAIM-Rachid */;
+			targetProxy = 138FFEF21A0B986D0035794E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		138FFED51A0B986C0035794E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138FFED61A0B986C0035794E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		138FFEDB1A0B986C0035794E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138FFEDC1A0B986C0035794E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		138FFEF71A0B986D0035794E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138FFEF81A0B986D0035794E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138FFEFC1A0B986D0035794E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		138FFEFD1A0B986D0035794E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		138FFEFF1A0B986D0035794E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP2_OUBRAIM-Rachid/TP2_OUBRAIM-Rachid-Prefix.pch";
+				INFOPLIST_FILE = "TP2_OUBRAIM-Rachid/TP2_OUBRAIM-Rachid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		138FFF001A0B986D0035794E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP2_OUBRAIM-Rachid/TP2_OUBRAIM-Rachid-Prefix.pch";
+				INFOPLIST_FILE = "TP2_OUBRAIM-Rachid/TP2_OUBRAIM-Rachid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		138FFF021A0B986D0035794E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TP2_OUBRAIM-Rachid.app/Contents/MacOS/TP2_OUBRAIM-Rachid";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP2_OUBRAIM-Rachid/TP2_OUBRAIM-Rachid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TP2_OUBRAIM-RachidTests/TP2_OUBRAIM-RachidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		138FFF031A0B986D0035794E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TP2_OUBRAIM-Rachid.app/Contents/MacOS/TP2_OUBRAIM-Rachid";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TP2_OUBRAIM-Rachid/TP2_OUBRAIM-Rachid-Prefix.pch";
+				INFOPLIST_FILE = "TP2_OUBRAIM-RachidTests/TP2_OUBRAIM-RachidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		138FFEC21A0B986C0035794E /* Build configuration list for PBXProject "TP2_OUBRAIM-Rachid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138FFEFC1A0B986D0035794E /* Debug */,
+				138FFEFD1A0B986D0035794E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138FFEFE1A0B986D0035794E /* Build configuration list for PBXNativeTarget "TP2_OUBRAIM-Rachid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138FFEFF1A0B986D0035794E /* Debug */,
+				138FFF001A0B986D0035794E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138FFF011A0B986D0035794E /* Build configuration list for PBXNativeTarget "TP2_OUBRAIM-RachidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138FFF021A0B986D0035794E /* Debug */,
+				138FFF031A0B986D0035794E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138FFEBF1A0B986C0035794E /* Project object */;
+}
